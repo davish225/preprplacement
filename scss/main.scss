@@ -1,5 +1,58 @@
+@import 'config';
+@import 'utilities';
+
+// CSS reset
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	background: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: $main-color;
+}
+
+ul {
+	list-style: none;
+}
+#main-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+
+	.name {
+		padding: 1rem 2rem;
+		border: 3px solid $main-color;
+		border-radius: 5px;
+	}
+
+	ul {
+		display: flex;
+	}
+
+	li {
+		padding: 1rem 1.5rem;
+	}
+
+	a {
+		color: $main-color;
+		border-bottom: 3px transparent solid;
+		padding-bottom: 0.5rem;
+		transition: border-color 0.5s;
+
+		&:hover {
+			border-color: $main-color;
+		}
+
+		&.current {
+			border-color: $main-color;
+		}
+	}
 }
