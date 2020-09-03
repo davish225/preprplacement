@@ -4,6 +4,30 @@
   overflow: hidden;
 }
 
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.py-6 {
+  padding: 6rem 0;
+}
+
 .btn-main {
   display: inline-block;
   transition: all 0.5s;
@@ -72,10 +96,6 @@ ul {
   border-color: #2d25c8;
 }
 
-#section-1 {
-  padding: 5rem 0;
-}
-
 #section-1 .container {
   display: flex;
   justify-content: space-around;
@@ -106,5 +126,34 @@ ul {
 
 #section-1 .container .text .btn-main:hover a {
   color: #2d25c8;
+}
+
+#section-2 {
+  display: flex;
+  padding: 0 2rem;
+  background: #f3f6f9;
+}
+
+#section-2 .bio {
+  display: grid;
+  grid-template-columns: 5, 1fr;
+  padding-left: 1rem;
+  color: #333;
+}
+
+#section-2 .bio h3 {
+  font-size: 2rem;
+}
+
+#section-2 .bio h3 span {
+  color: #2d25c8;
+}
+
+#section-2 .bio .quote-2 {
+  font-style: italic;
+}
+
+#section-2 .bio .statement-2 {
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=main.css.map */

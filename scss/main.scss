@@ -59,8 +59,6 @@ ul {
 
 // Intro Section
 #section-1 {
-	padding: 5rem 0;
-
 	.container {
 		display: flex;
 		justify-content: space-around;
@@ -89,6 +87,34 @@ ul {
 					}
 				}
 			}
+		}
+	}
+}
+
+#section-2 {
+	display: flex;
+	padding: 0 2rem;
+	background: $light-color;
+
+	.bio {
+		display: grid;
+		grid-template-columns: 5, 1fr;
+		padding-left: 1rem;
+		color: $dark-color;
+
+		h3 {
+			font-size: 2rem;
+			span {
+				color: $main-color;
+			}
+		}
+
+		.quote-2 {
+			font-style: italic;
+		}
+
+		.statement-2 {
+			font-size: 1.25rem;
 		}
 	}
 }
