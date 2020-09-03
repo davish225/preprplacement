@@ -16,12 +16,12 @@ body {
 
 a {
 	text-decoration: none;
-	color: $main-color;
 }
 
 ul {
 	list-style: none;
 }
+// Navbar
 #main-nav {
 	display: flex;
 	justify-content: space-between;
@@ -38,7 +38,7 @@ ul {
 	}
 
 	li {
-		padding: 1rem 1.5rem;
+		padding: 1rem;
 	}
 
 	a {
@@ -53,6 +53,29 @@ ul {
 
 		&.current {
 			border-color: $main-color;
+		}
+	}
+}
+
+// Intro Section
+#section-1 {
+	padding: 5rem 0;
+
+	.container {
+		display: flex;
+		justify-content: space-around;
+
+		.text {
+			align-self: center;
+			padding: 0 2rem;
+
+			p {
+				padding: 0.5rem 0;
+			}
+
+			a {
+				color: white;
+			}
 		}
 	}
 }

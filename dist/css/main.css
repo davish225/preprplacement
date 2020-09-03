@@ -4,6 +4,20 @@
   overflow: hidden;
 }
 
+.btn-main {
+  display: inline-block;
+  padding: 0.8rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #2d25c8;
+  border-radius: 5px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +32,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #2d25c8;
 }
 
 ul {
@@ -42,7 +55,7 @@ ul {
 }
 
 #main-nav li {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
 }
 
 #main-nav a {
@@ -58,5 +71,27 @@ ul {
 
 #main-nav a.current {
   border-color: #2d25c8;
+}
+
+#section-1 {
+  padding: 5rem 0;
+}
+
+#section-1 .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section-1 .container .text {
+  align-self: center;
+  padding: 0 2rem;
+}
+
+#section-1 .container .text p {
+  padding: 0.5rem 0;
+}
+
+#section-1 .container .text a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

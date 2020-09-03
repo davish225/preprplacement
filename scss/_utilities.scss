@@ -11,3 +11,12 @@
 	border: none;
 	cursor: pointer;
 }
+
+.btn {
+	&-main {
+		@extend %btn-shared;
+		color: #fff;
+		background-color: $main-color;
+		border-radius: 5px;
+	}
+}
