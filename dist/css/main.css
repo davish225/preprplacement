@@ -143,6 +143,7 @@ ul {
 
 #section-2 .bio h3 {
   font-size: 2rem;
+  font-weight: 400;
 }
 
 #section-2 .bio h3 span {
@@ -155,5 +156,74 @@ ul {
 
 #section-2 .bio .statement-2 {
   font-size: 1.25rem;
+}
+
+#section-3 h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#section-3 h3 span {
+  color: #2d25c8;
+}
+
+#section-3 #transition {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#section-3 .services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 4rem;
+}
+
+#section-3 .services h5 {
+  padding: 1rem 0;
+}
+
+#section-4 {
+  background: #2d25c8;
+}
+
+#section-4 h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+#section-4 .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 5rem;
+  grid-gap: 1rem;
+}
+
+#section-4 .container .card {
+  position: relative;
+  padding: 4rem 4rem;
+  background: #fff;
+  color: #333;
+}
+
+#section-4 .container .card #quote {
+  opacity: 0.5;
+  position: absolute;
+  top: 2rem;
+  left: 0.75rem;
+}
+
+#section-4 .container .card #dot {
+  position: absolute;
+  bottom: 3.5rem;
+  right: 2rem;
+}
+
+#section-4 .container .card .name {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

@@ -91,6 +91,7 @@ ul {
 	}
 }
 
+// Bio Section
 #section-2 {
 	display: flex;
 	padding: 0 2rem;
@@ -104,6 +105,7 @@ ul {
 
 		h3 {
 			font-size: 2rem;
+			font-weight: 400;
 			span {
 				color: $main-color;
 			}
@@ -115,6 +117,80 @@ ul {
 
 		.statement-2 {
 			font-size: 1.25rem;
+		}
+	}
+}
+
+// Services Section
+#section-3 {
+	h3 {
+		font-size: 2rem;
+		font-weight: 500;
+		text-align: center;
+		span {
+			color: $main-color;
+		}
+	}
+
+	#transition {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.services {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+
+		padding: 0 4rem;
+
+		h5 {
+			padding: 1rem 0;
+		}
+	}
+}
+
+// Testimonials Section
+#section-4 {
+	background: $main-color;
+
+	h3 {
+		color: #fff;
+		font-size: 2rem;
+		font-weight: 400;
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0 5rem;
+		grid-gap: 1rem;
+
+		.card {
+			position: relative;
+
+			#quote {
+				opacity: 0.5;
+				position: absolute;
+				top: 2rem;
+				left: 0.75rem;
+			}
+
+			#dot {
+				position: absolute;
+				bottom: 3.5rem;
+				right: 2rem;
+			}
+
+			padding: 4rem 4rem;
+			background: #fff;
+			color: $dark-color;
+
+			.name {
+				font-size: 1.5rem;
+				font-weight: 400;
+			}
 		}
 	}
 }
