@@ -194,3 +194,28 @@ ul {
 		}
 	}
 }
+
+// Projects section
+#section-5 {
+	h3 {
+		font-size: 2rem;
+		font-weight: 400;
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.check {
+		padding-top: 3rem;
+		font-size: 1rem;
+		text-align: center;
+
+		i {
+			color: $main-color;
+		}
+	}
+}
