@@ -28,7 +28,7 @@
   padding: 6rem 0;
 }
 
-.btn-main {
+.btn-main, .btn-light {
   display: inline-block;
   transition: all 0.5s;
   border: none;
@@ -38,6 +38,12 @@
 .btn-main {
   color: #fff;
   background-color: #2d25c8;
+  border-radius: 5px;
+}
+
+.btn-light {
+  color: #2d25c8;
+  background-color: #fff;
   border-radius: 5px;
 }
 
@@ -247,5 +253,73 @@ ul {
 
 #section-5 .check i {
   color: #2d25c8;
+  border: 1px solid #fff;
+}
+
+#section-5 .check i:hover {
+  background: #2d25c8;
+  border: 1px solid #2d25c8;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#section-6 .contact-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#section-6 .contact-box .box {
+  position: absolute;
+  top: -75px;
+  width: 60%;
+  height: 200%;
+  background: #2d25c8;
+  border: 1px solid #2d25c8;
+  border-radius: 5px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section-6 .contact-box .box .text {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#section-6 .contact-box .box .btn-light {
+  padding: 0.5rem 2rem;
+  border: 1px solid #fff;
+}
+
+#section-6 .contact-box .box .btn-light:hover {
+  background: #2d25c8;
+  border-radius: 5px;
+}
+
+#section-6 .contact-box .box .btn-light:hover a {
+  color: #fff;
+}
+
+#section-6 .info {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-6 .info i {
+  color: #2d25c8;
+  border: 1px solid #fff;
+  padding: 0.25rem;
+}
+
+#section-6 .info i:hover {
+  background: #2d25c8;
+  border: 1px solid #2d25c8;
+  border-radius: 5px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

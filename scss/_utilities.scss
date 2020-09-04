@@ -37,4 +37,10 @@
 		background-color: $main-color;
 		border-radius: 5px;
 	}
+	&-light {
+		@extend %btn-shared;
+		color: $main-color;
+		background-color: #fff;
+		border-radius: 5px;
+	}
 }
