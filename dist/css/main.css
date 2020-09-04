@@ -416,4 +416,26 @@ ul {
   border-radius: 5px;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  #section-1 img {
+    width: 50%;
+  }
+  #section-2 h3 span {
+    display: block;
+  }
+  #section-2 img {
+    height: 70%;
+    padding-top: 5rem;
+  }
+  #section-2 p {
+    padding: 0.5rem 0;
+  }
+  #section-4 .container {
+    display: block;
+  }
+  #section-4 .container .card:first-child {
+    margin-bottom: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
