@@ -1,4 +1,117 @@
 // Mobile styling
+@media (max-width: 375px) {
+	#header {
+		padding-top: 1rem;
+
+		.container {
+			padding: 0 0.5rem;
+		}
+		#main-nav {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.name {
+				text-align: center;
+			}
+
+			li {
+				margin-top: 0.5rem;
+				padding: 0.3rem;
+			}
+		}
+	}
+
+	#section-1,
+	#section-3,
+	#section-4,
+	#section-5,
+	#section-6 {
+		padding: 2rem 0;
+	}
+
+	#section-1 {
+		img {
+			display: none;
+		}
+	}
+	#section-2 {
+		img {
+			display: none;
+		}
+	}
+
+	#section-3 {
+		h3 {
+			font-size: 1.8rem;
+		}
+
+		.services {
+			display: block;
+
+			div {
+				padding-bottom: 0.75rem;
+			}
+			h5 {
+				padding-bottom: 0.5rem;
+			}
+		}
+	}
+
+	#section-4 {
+		.container {
+			padding: 1rem;
+			display: block;
+			.card {
+				#dot {
+					display: none;
+				}
+			}
+		}
+	}
+
+	#section-5 {
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 0.5rem;
+			img {
+				padding-top: 2rem;
+			}
+		}
+	}
+
+	#section-6 {
+		.contact-box {
+			.box {
+				display: flex;
+				flex-direction: column;
+				padding: 0.5rem 0;
+				top: -40px;
+				.text {
+					font-size: 1rem;
+				}
+
+				button {
+				}
+			}
+		}
+
+		.bg-parent {
+			.light-bg {
+				top: -40px;
+				height: 180px;
+			}
+		}
+
+		.info {
+			display: flex;
+			flex-direction: column;
+			padding-top: 2rem;
+			text-align: center;
+		}
+	}
+}
 
 // Tablet styling
 @media (max-width: 768px) {
