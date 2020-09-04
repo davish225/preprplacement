@@ -13,39 +13,49 @@
 	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 
 	/* Modal Content */
-	#card-content {
-		margin: auto;
-		background-color: #fff;
-		padding: 1rem;
-		width: 36%;
-		height: 38%;
-		border-radius: 5px;
-		position: relative;
+	.container {
+		display: flex;
+		justify-content: center;
 
-		h2 {
-			text-align: center;
-		}
-		.text-fields {
-			display: grid;
-			grid-template-rows: 4, 1fr;
-			padding: 1rem 0;
+		#card-content {
+			background-color: #fff;
+			padding: 1rem;
+			width: 40rem;
+			height: 30rem;
+			// width: 36%;
+			// height: 38%;
+			border-radius: 5px;
+			position: relative;
 
-			input {
-				display: block;
-				width: 82%;
-				height: 2rem;
+			h2 {
+				text-align: center;
+			}
+			.text-fields {
+				display: grid;
+				grid-template-rows: 4, 1fr;
+				padding: 1rem 0;
+
+				input {
+					display: block;
+					width: 82%;
+					height: 2rem;
+				}
+
+				textarea {
+					width: 82%;
+					height: 5rem;
+				}
 			}
 
-			textarea {
-				width: 82%;
-				height: 5rem;
-			}
-		}
+			button {
+				display: flex;
+				justify-content: flex-end;
 
-		.btn-main {
-			position: absolute;
-			bottom: 1rem;
-			right: 7rem;
+				.btn-main {
+					bottom: 1rem;
+					right: 7rem;
+				}
+			}
 		}
 	}
 
