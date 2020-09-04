@@ -4,6 +4,9 @@
 	overflow: hidden;
 }
 
+.py-0.5 {
+	padding: 0.5rem 0;
+}
 .py-1 {
 	padding: 1rem 0;
 }
@@ -39,8 +42,8 @@
 	}
 	&-light {
 		@extend %btn-shared;
+		background: #fff;
 		color: $main-color;
-		background-color: #fff;
 		border-radius: 5px;
 	}
 }

@@ -1,5 +1,6 @@
 @import 'config';
 @import 'utilities';
+@import 'form';
 
 // CSS reset
 * {
@@ -113,10 +114,12 @@ ul {
 
 		.quote-2 {
 			font-style: italic;
+			font-weight: 600;
 		}
 
 		.statement-2 {
 			font-size: 1.25rem;
+			font-weight: 600;
 		}
 	}
 }
@@ -240,7 +243,7 @@ ul {
 		.box {
 			position: absolute;
 			top: -75px;
-			width: 66%;
+			width: 68%;
 			height: 200%;
 			background: $main-color;
 			border: 1px solid $main-color;
@@ -257,35 +260,35 @@ ul {
 				font-size: 1.25rem;
 			}
 
-			.btn-light {
-				padding: 0.5rem 2rem;
+			button {
 				border: 1px solid #fff;
+				padding: 1rem 3rem;
+				outline: none;
+				border-radius: 5px;
 
 				&:hover {
+					color: #fff;
 					background: $main-color;
 					border-radius: 5px;
-					a {
-						color: #fff;
-					}
 				}
 			}
 		}
+	}
 
+	.bg-parent {
+		position: relative;
 		.light-bg {
 			position: absolute;
-			top: -10px;
+			top: -80px;
 			height: 130px;
 			width: 100%;
 			background: $medium-color;
 		}
 	}
-
 	.info {
-		z-index: 2;
-		padding: 5rem 1rem 0;
+		position: relative;
 		display: flex;
 		justify-content: space-around;
-
 		i {
 			color: $main-color;
 			border: 1px solid $medium-color;
