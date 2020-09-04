@@ -50,6 +50,11 @@
 			button {
 				display: flex;
 				justify-content: flex-end;
+				&:hover {
+					background: #fff;
+					border: 1px solid $main-color;
+					color: $main-color;
+				}
 
 				.btn-main {
 					bottom: 1rem;

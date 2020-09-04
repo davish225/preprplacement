@@ -117,6 +117,12 @@
   justify-content: flex-end;
 }
 
+#card .container #card-content button:hover {
+  background: #fff;
+  border: 1px solid #2d25c8;
+  color: #2d25c8;
+}
+
 #card .container #card-content button .btn-main {
   bottom: 1rem;
   right: 7rem;
