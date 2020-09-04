@@ -1,3 +1,3 @@
 # preprplacement
 
-![](name-of-giphy.gif)
+![](demo.gif)
